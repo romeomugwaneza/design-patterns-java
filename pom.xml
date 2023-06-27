@@ -4,6 +4,10 @@
   <groupId>com.dp</groupId>
   <artifactId>design-patterns-java</artifactId>
   <packaging>jar</packaging>
+  <properties>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
   <version>1.0-SNAPSHOT</version>
   <name>design-patterns-java</name>
   <url>http://maven.apache.org</url>
