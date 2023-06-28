@@ -24,3 +24,7 @@ It uses 3 classes:
 1. Originator: Creates and restores states.
 2. Caretaker: Holds history of states(can use a List).
 3. Momento: Contains current state.
+
+### 2. State Pattern
+
+Example of a drawing canvas that changes depending on the tool selected from the palette in software like PhotoShop.
