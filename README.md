@@ -28,3 +28,11 @@ It uses 3 classes:
 ### 2. State Pattern
 
 Example of a drawing canvas that changes depending on the tool selected from the palette in software like PhotoShop.
+
+### 3. Command Pattern
+
+Encapsulates a request in a single object. Here are some advantages:
+
+- Objects can be logged. Added to a list(or any other DS)
+- Command objects can be used to undo/redo functionality.
+- Command objects can be replayed.
