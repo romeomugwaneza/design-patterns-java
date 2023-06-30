@@ -1,4 +1,4 @@
-package com.dp.observer;
+package com.dp.observer.push;
 
 public class Main {
     public static void main(String[] args) {

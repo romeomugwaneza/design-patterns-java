@@ -1,4 +1,4 @@
-package com.dp.observer;
+package com.dp.observer.push;
 
 public class DataSource extends Subject{
     private int value;

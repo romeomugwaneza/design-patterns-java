@@ -1,4 +1,4 @@
-package com.dp.observer;
+package com.dp.observer.pull;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,8 +11,8 @@ public class Subject {
     public void removeObserver(Observer observer){
         observers.remove(observers);
     }
-    public void notifyObservers(int value){
+    public void notifyObservers(){
         for (var observer : observers)
-            observer.update(value);
+            observer.update();
     }
 }
