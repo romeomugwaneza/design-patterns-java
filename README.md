@@ -40,3 +40,6 @@ Encapsulates a request in a single object. Here are some advantages:
 ### 4. Observer Pattern
 
 Used when a state of an object changes and you need to notify others.
+
+- Push style: The subject pushes changes. Concrete observers may need different data. This method is not flexible.
+- Pull style: Concrete observers pull the changes they need when the changes occur. In this case, each concrete observer must have a reference to a concrete Subject and calls various methods and get the data they need. The coupling is a ConcreteObserver-ConcreteSubject direction which is an acceptable coupling. New classes(ConcreteObserver) adapt to existing ConcreteSubject.
