@@ -36,3 +36,7 @@ Encapsulates a request in a single object. Here are some advantages:
 - Objects can be logged. Added to a list(or any other DS)
 - Command objects can be used to undo/redo functionality.
 - Command objects can be replayed.
+
+### 4. Observer Pattern
+
+Used when a state of an object changes and you need to notify others.
